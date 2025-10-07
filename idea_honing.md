@@ -1,3 +1,5 @@
+By using this prompt the AI will ask follow up questions that improves and depthens the idea.
+
 --EXAMPLE: I want to create a TODO-web application for my hobby projects.--
 
 Ask me one question at a time so we can develop
