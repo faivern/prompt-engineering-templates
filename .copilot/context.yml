@@ -1,0 +1,18 @@
+# Copilot Context Configuration
+# This tells GitHub Copilot which documents to read first when generating or suggesting code.
+
+version: 1
+context:
+  include:
+    - docs/spec.md
+    - docs/prompt_plan.md
+    - docs/todo.md
+  exclude:
+    - node_modules/**
+    - dist/**
+    - build/**
+    - .git/**
+  rules:
+    - description: "Always refer to spec.md for requirements and architecture context."
+    - description: "Use prompt_plan.md for step sequencing and implementation guidance."
+    - description: "Use todo.md to track completed steps and remaining tasks."
